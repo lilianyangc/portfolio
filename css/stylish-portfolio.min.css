@@ -57,4 +57,9 @@ body {
   position: relative;
 }#myPic {
   border-radius: 50%;
+}#doc{
+  color: white;
+}.mix{
+  border-style: double;
+  border-color:	#1470b3;
 }

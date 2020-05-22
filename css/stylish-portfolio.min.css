@@ -49,7 +49,7 @@ body {
   list-style-type: none;
   margin-left: 2.5em;
   padding-left: 0;
-}#list il {
+}#list li {
   text-align: left;
 }
 
@@ -62,9 +62,38 @@ body {
 }.mix{
   border-style: double;
   border-color:	#1470b3;
-}#otherProjectsBody{
+}
+
+/* Other Projects */
+.otherProjectsHeader{
+  margin-top: 50px;
+}
+
+#otherProjectsBody{
   color:cadetblue;
-  margin: 50px;
-}.otherProjectsHeader{
-  margin: 50px;
+  margin: 0 20px;
+
+}
+
+
+/* Skill Bar */
+.skills > li{
+  list-style: none;
+  margin: 2px;
+}
+.skills{
+  width: 400px;
+}
+.progress{
+  background-color: #090b2b;
+}
+.progress-bar{
+  background-color: lightblue;
+  color: #090b2b;
+  font-weight: bold;
+}
+
+/* hero content */
+.container > div > h4 {
+  color: lightgray;
 }

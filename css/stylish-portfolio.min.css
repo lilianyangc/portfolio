@@ -62,4 +62,9 @@ body {
 }.mix{
   border-style: double;
   border-color:	#1470b3;
+}#otherProjectsBody{
+  color:cadetblue;
+  margin: 50px;
+}.otherProjectsHeader{
+  margin: 50px;
 }

@@ -431,3 +431,56 @@ a:hover, a:focus, a:active {
 #personalProjects{
   color:cadetblue;
 }
+
+#list {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0;
+}#list li {
+  text-align: left;
+}
+
+.fa-ul>li {
+  position: relative;
+}#myPic {
+  border-radius: 50%;
+}#doc{
+  color: white;
+}.mix{
+  border-style: double;
+  border-color:	#1470b3;
+}
+
+/* Other Projects */
+.otherProjectsHeader{
+  margin-top: 50px;
+}
+
+#otherProjectsBody{
+  color:cadetblue;
+  margin: 0 20px;
+
+}
+
+
+/* Skill Bar */
+.skills > li{
+  list-style: none;
+  margin: 2px;
+}
+.skills{
+  width: 400px;
+}
+.progress{
+  background-color: #090b2b;
+}
+.progress-bar{
+  background-color: lightblue;
+  color: #090b2b;
+  font-weight: bold;
+}
+
+/* hero content */
+.container > div > h4 {
+  color: lightgray;
+}

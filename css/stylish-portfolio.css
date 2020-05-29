@@ -433,7 +433,7 @@ a:hover, a:focus, a:active {
 }
 
 #list {
-  list-style-type: none;
+  list-style-type: none !important;
   margin-left: 2.5em;
   padding-left: 0;
 }#list li {
@@ -472,10 +472,10 @@ a:hover, a:focus, a:active {
   width: 400px;
 }
 .progress{
-  background-color: #090b2b;
+  background-color: #090b2b !important;
 }
 .progress-bar{
-  background-color: lightblue;
+  background-color: lightblue !important;
   color: #090b2b;
   font-weight: bold;
 }
@@ -483,4 +483,5 @@ a:hover, a:focus, a:active {
 /* hero content */
 .container > div > h4 {
   color: lightgray;
+}
 }

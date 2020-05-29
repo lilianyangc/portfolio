@@ -66,13 +66,16 @@ body {
 
 /* Other Projects */
 .otherProjectsHeader{
-  margin-top: 50px;
+  margin: 50px 0;
 }
 
 #otherProjectsBody{
   color:cadetblue;
   margin: 0 20px;
+}
 
+.fa-lightbulb{
+  color: #ba9106 !important;
 }
 
 

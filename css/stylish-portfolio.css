@@ -360,6 +360,22 @@ a:hover, a:focus, a:active {
   color: #ecb807 !important;
 }
 
+.arrow{
+  text-align:center;
+  margin:auto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.bounce-1 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
 
 .chevron {
   position: absolute;

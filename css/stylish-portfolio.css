@@ -360,8 +360,10 @@ a:hover, a:focus, a:active {
   color: #ecb807 !important;
 }
 
-#chevron {
-  margin: auto;
+
+.chevron {
+  position: absolute;
+  text-align: center;
   /* top: -15em; */
   transition-delay: 8s;
   /* -webkit-animation: mover .5s infinite  alternate; */
@@ -483,5 +485,4 @@ a:hover, a:focus, a:active {
 /* hero content */
 .container > div > h4 {
   color: lightgray;
-}
 }
